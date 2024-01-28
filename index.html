@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de juros</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/martz90/circle/48/calculator-icon.png" type="image/x-icon">
+    <script type="module" src="./js/index.js" defer></script>
+  </head>
+  <body>
+
+    
+    <div class="container">
+      
+      <div class="alert-error">
+        Digite somente números
+    </div>
+
+        <img class="vector"
+        src="./assets/vector.png"
+        alt="Um homem com uma calculadora e algumas decorações em volta">
+
+        
+      <main class="card">
+          <form class="form">
+            <h1 class="title">Calculadora de juros</h1>
+
+            <div class="input-wrapper">
+              <label for="price">Valor (R$)</label>
+              <input type="number" name="price" id="price" autocomplete="off">
+            </div>
+
+            <div class="select-wrapper">
+              <label for="installments">Parcelas</label>
+              <select name="installments" id="installments">
+                <option value="2.400%|1">1x (2,400%)</option>
+                <option value="3.628%|2">2x (3,628%)</option>
+                <option value="4.857%|3">3x (4,857%)</option>
+                <option value="6.115%|4">4x (6,115%)</option>
+                <option value="7.374%|5">5x (7,374%)</option>
+                <option value="8.662%|6">6x (8,662%)</option>
+                <option value="9.951%|7">7x (9,951%)</option>
+                <option value="11.270%|8">8x (11,270%)</option>
+                <option value="12.589%|9">9x (12,589%)</option>
+                <option value="13.941%|10">10x (13,941%)</option>
+                <option value="15.292%|11">11x (15,292%)</option>
+                <option value="16.675%|12">12x (16,675%)</option>
+                <option value="18.059%|13">13x (18,059%)</option>
+                <option value="19.475%|14">14x (19,475%)</option>
+                <option value="20.892%|15">15x (20,892%)</option>
+                <option value="22.343%|16">16x (22,343%)</option>
+                <option value="23.794%|17">17x (23,794%)</option>
+                <option value="25.279%|18">18x (25,279%)</option>
+            
+              </select>
+            </div>
+
+            <div class="submit">
+              <button class="button-submit">Calcular</button>
+              <div  class="result"></div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+      
+    </main>
+  </div>
+  </div>
+
+  </body>
+</html>
